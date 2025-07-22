@@ -1,0 +1,9 @@
+prepare:
+  steps:
+    - command: echo preparestage
+test:
+  steps: []
+run:
+  steps:
+    - command: echo runstage
+    - command: while true; do echo "hi"; sleep 1; done
